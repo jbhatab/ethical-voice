@@ -295,7 +295,7 @@ export default function Dashboard() {
                 </svg>
                 <div>
                   <p className="font-medium text-white">cristi-2.wav</p>
-                  <p className="text-xs text-gray-400">2.30 MB • Uploaded yesterday</p>
+                  <p className="text-xs text-gray-400">2.30 MB &bull; Uploaded yesterday</p>
                 </div>
               </div>
               
@@ -404,7 +404,7 @@ export default function Dashboard() {
                           </div>
                           <div>
                             <p className="font-medium text-white">{file.name}</p>
-                            <p className="text-xs text-gray-400">{(file.size / 1024 / 1024).toFixed(2)} MB • {file.type.split('/')[1].toUpperCase()}</p>
+                            <p className="text-xs text-gray-400">{(file.size / 1024 / 1024).toFixed(2)} MB &bull; {file.type.split('/')[1].toUpperCase()}</p>
                           </div>
                         </div>
                         
@@ -569,7 +569,7 @@ export default function Dashboard() {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm font-medium text-white">Cloned Voice Sample</p>
-                    <p className="text-xs text-gray-400">cristi-clip-1.wav • Generated with Resemble AI</p>
+                    <p className="text-xs text-gray-400">cristi-clip-1.wav &bull; Generated with Resemble AI</p>
                   </div>
                   
                   <button
