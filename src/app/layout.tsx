@@ -22,8 +22,12 @@ export default function RootLayout({
     setTimeout(() => setLoading(false), 1000);
   }, []);
 
+  useEffect(() => {
+    document.documentElement.classList.add('dark');
+  }, []);
+
   return (
-    <html suppressHydrationWarning={true} className="!scroll-smooth" lang="en">
+    <html suppressHydrationWarning={true} className="!scroll-smooth dark" lang="en">
       {/*
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
@@ -38,7 +42,8 @@ export default function RootLayout({
             <ThemeProvider
               attribute="class"
               enableSystem={false}
-              defaultTheme="light"
+              defaultTheme="dark"
+              forcedTheme="dark"
             >
               <ToasterContext />
               <Header />
