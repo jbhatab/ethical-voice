@@ -52,7 +52,9 @@ const Hero = () => {
               </ul>
               <Link
                 href="/marketplace"
-                className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-6 py-4 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-blue-700"
+                className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-6 py-4 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                role="button"
+                aria-label="Go to marketplace page"
               >
                 Explore Voice Library
                 <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -93,7 +95,7 @@ const Hero = () => {
               </ul>
               <Link
                 href="/dashboard"
-                className="inline-flex items-center justify-center rounded-lg bg-purple-600 px-6 py-4 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-purple-700"
+                className="inline-flex items-center justify-center rounded-lg bg-purple-600 px-6 py-4 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-purple-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
               >
                 Join as Creator
                 <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -116,8 +118,7 @@ const Hero = () => {
         </div>
 
         {/* Background gradient effects */}
-        <div className="absolute -top-40 left-0 right-0 z-0 h-[500px] w-full bg-gradient-to-b from-blue-900/20 to-transparent"></div>
-        <div className="absolute bottom-0 left-0 right-0 z-0 h-[300px] w-full bg-gradient-to-t from-purple-900/10 to-transparent"></div>
+   
       </section>
     </>
   );
