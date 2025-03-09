@@ -17,8 +17,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Free and Open-Source",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Your Voice Has Proof",
+    paragraph: "Unauthorized voice-jackers get tossed faster than a TikTok trend.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -38,8 +38,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modern Design",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Robot Lawyer Squad (But Cuter)",
+    paragraph: "⚖️ Smart contracts that don’t smell like lawyer cologne. Choose your smart contract, choose your fate, change it as you grow.",
     btn: "Learn More",
     btnLink: "/#",
   },
