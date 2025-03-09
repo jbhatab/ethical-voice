@@ -464,7 +464,7 @@ export default function Dashboard() {
           <div className="rounded-xl border border-gray-700 p-6">
             <h3 className="mb-4 text-lg font-medium text-white">Record Your Voice</h3>
             <p className="mb-6 text-sm text-gray-400">
-              Don't have audio files? You can record your voice directly in the browser.
+              Don&apos;t have audio files? You can record your voice directly in the browser.
             </p>
             
             <button className="flex items-center rounded-lg bg-purple-600/20 px-6 py-3 text-sm font-medium text-purple-400 transition-colors hover:bg-purple-600/30">
