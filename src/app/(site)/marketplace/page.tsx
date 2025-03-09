@@ -14,7 +14,7 @@ const voiceData = [
     rating: 4.9,
     samples: 12,
     price: "$120/hr",
-    audioSrc: "/audio/sample1.mp3",
+    audioSrc: "/audio/cristi-clip-1.wav",
     image: "/images/voices/voice1.jpg"
   },
   {
@@ -25,7 +25,7 @@ const voiceData = [
     rating: 4.8,
     samples: 15,
     price: "$150/hr",
-    audioSrc: "/audio/sample2.mp3",
+    audioSrc: "/audio/cristi-clip-1.wav",
     image: "/images/voices/voice2.jpg"
   },
   {
@@ -36,7 +36,7 @@ const voiceData = [
     rating: 4.7,
     samples: 8,
     price: "$110/hr",
-    audioSrc: "/audio/sample3.mp3",
+    audioSrc: "/audio/cristi-clip-1.wav",
     image: "/images/voices/voice3.jpg"
   },
   {
@@ -47,7 +47,7 @@ const voiceData = [
     rating: 4.9,
     samples: 10,
     price: "$140/hr",
-    audioSrc: "/audio/sample4.mp3",
+    audioSrc: "/audio/cristi-clip-1.wav",
     image: "/images/voices/voice4.jpg"
   },
   {
@@ -58,7 +58,7 @@ const voiceData = [
     rating: 4.8,
     samples: 14,
     price: "$130/hr",
-    audioSrc: "/audio/sample5.mp3",
+    audioSrc: "/audio/cristi-clip-1.wav",
     image: "/images/voices/voice5.jpg"
   },
   {
@@ -69,7 +69,7 @@ const voiceData = [
     rating: 4.7,
     samples: 9,
     price: "$125/hr",
-    audioSrc: "/audio/sample6.mp3",
+    audioSrc: "/audio/cristi-clip-1.wav",
     image: "/images/voices/voice6.jpg"
   },
 ];
