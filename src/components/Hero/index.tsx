@@ -105,7 +105,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="mt-16 text-center">
+          {/* <div className="mt-16 text-center">
             <p className="mb-6 text-lg font-medium text-gray-400">Trusted by leading companies and voice professionals</p>
             <div className="flex flex-wrap items-center justify-center gap-8 opacity-70">
               <Image src="/images/brands/google.svg" alt="Google" width={120} height={40} className="h-8 w-auto" />
@@ -114,7 +114,7 @@ const Hero = () => {
               <Image src="/images/brands/spotify.svg" alt="Spotify" width={120} height={40} className="h-8 w-auto" />
               <Image src="/images/brands/adobe.svg" alt="Adobe" width={120} height={40} className="h-8 w-auto" />
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Background gradient effects */}

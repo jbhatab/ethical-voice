@@ -7,9 +7,8 @@ const HomeBlogSection = ({ posts }: any) => {
       <div className="container mx-auto">
         <div className="mb-[60px]">
           <SectionTitle
-            subtitle="Our Blogs"
-            title="Our Recent News"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Upload your voice, share its power"
+            paragraph="Empowering artists to upload, share, and monetize their voices with cutting-edge AI cloning technology."
             width="640px"
             center
           />
