@@ -254,7 +254,7 @@ const Header = () => {
                   </>
                 ) : (
                   <>
-                    {pathUrl === "/dashboard" ? (
+                    {pathUrl === "/dashboard" || pathUrl === "/marketplace" ? (
                       <Link
                         href="#"
                         onClick={() => signOut()}
