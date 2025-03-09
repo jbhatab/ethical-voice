@@ -62,43 +62,9 @@ const Header = () => {
                 } `}
               >
                 {pathUrl !== "/" ? (
-                  <>
-                    <Image
-                      src={`/images/logo/logo.svg`}
-                      alt="logo"
-                      width={240}
-                      height={30}
-                      className="header-logo w-full dark:hidden"
-                    />
-                    <Image
-                      src={`/images/logo/logo-white.svg`}
-                      alt="logo"
-                      width={240}
-                      height={30}
-                      className="header-logo hidden w-full dark:block"
-                    />
-                  </>
+                  <h1 className="text-2xl font-bold text-dark dark:text-white">Ethical Voice</h1>
                 ) : (
-                  <>
-                    <Image
-                      src={`${
-                        sticky
-                          ? "/images/logo/logo.svg"
-                          : "/images/logo/logo-white.svg"
-                      }`}
-                      alt="logo"
-                      width={140}
-                      height={30}
-                      className="header-logo w-full dark:hidden"
-                    />
-                    <Image
-                      src={"/images/logo/logo-white.svg"}
-                      alt="logo"
-                      width={140}
-                      height={30}
-                      className="header-logo hidden w-full dark:block"
-                    />
-                  </>
+                  <h1 className={`text-2xl font-bold ${sticky ? "text-dark dark:text-white" : "text-white"}`}>Ethical Voice</h1>
                 )}
               </Link>
             </div>
@@ -291,13 +257,13 @@ const Header = () => {
                     {pathUrl !== "/" ? (
                       <>
                         <Link
-                          href="/signin"
+                          href="/dashboard"
                           className="px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white"
                         >
                           Sign In
                         </Link>
                         <Link
-                          href="/signup"
+                          href="/dashboard"
                           className="rounded-lg bg-primary px-6 py-3 text-base font-medium text-white duration-300 ease-in-out hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
                         >
                           Sign Up
@@ -306,7 +272,7 @@ const Header = () => {
                     ) : (
                       <>
                         <Link
-                          href="/signin"
+                          href="/dashboard"
                           className={`px-7 py-3 text-base font-medium hover:opacity-70 ${
                             sticky ? "text-dark dark:text-white" : "text-white"
                           }`}
@@ -314,7 +280,7 @@ const Header = () => {
                           Sign In
                         </Link>
                         <Link
-                          href="/signup"
+                          href="/dashboard"
                           className={`rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
                             sticky
                               ? "bg-primary hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"

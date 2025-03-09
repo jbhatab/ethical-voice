@@ -51,21 +51,8 @@ const SignUp = () => {
               data-wow-delay=".15s"
             >
               <div className="mb-10 text-center">
-                <Link href="/" className="mx-auto inline-block max-w-[160px]">
-                  <Image
-                    src="/images/logo/logo.svg"
-                    alt="logo"
-                    width={140}
-                    height={30}
-                    className="dark:hidden"
-                  />
-                  <Image
-                    src="/images/logo/logo-white.svg"
-                    alt="logo"
-                    width={140}
-                    height={30}
-                    className="hidden dark:block"
-                  />
+                <Link href="/" className="mx-auto inline-block">
+                  <h1 className="text-2xl font-bold text-dark dark:text-white">Ethical Voice</h1>
                 </Link>
               </div>
 
