@@ -404,7 +404,7 @@ export default function Dashboard() {
                           </div>
                           <div>
                             <p className="font-medium text-white">{file.name}</p>
-                            <p className="text-xs text-gray-400">{(file.size / 1024 / 1024).toFixed(2)} MB &bull; {file.type.split('/')[1].toUpperCase()}</p>
+                            <p className="text-xs text-gray-400">{(file.size / 1024 / 1024).toFixed(2)} MB &bull; {file.type.split("/")[1].toUpperCase()}</p>
                           </div>
                         </div>
                         
@@ -479,7 +479,7 @@ export default function Dashboard() {
           <div className="rounded-xl border border-gray-700 p-6">
             <h3 className="mb-4 text-lg font-medium text-white">Connect to Voice Marketplaces</h3>
             <p className="mb-6 text-sm text-gray-400">
-              Integrate with popular voice AI providers to expand your voice's reach and capabilities
+              Integrate with popular voice AI providers to expand your voice&apos;s reach and capabilities
             </p>
             
             <div className="space-y-4">
