@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="mb-16 text-center">
             <h1 className="mb-6 text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
               Ethical Voice Marketplace
-            </h1>
+                </h1>
             <p className="mx-auto mb-8 max-w-[700px] text-lg font-medium text-gray-300">
               The premier platform connecting voice creators with companies and LLMs
               for ethical, transparent, and high-quality voice solutions.
@@ -27,7 +27,7 @@ const Hero = () => {
                 <div className="rounded-full bg-blue-600/20 p-3">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" />
-                  </svg>
+                      </svg>
                 </div>
               </div>
               <ul className="mb-8 space-y-4 text-gray-300">
@@ -59,9 +59,9 @@ const Hero = () => {
                 Explore Voice Library
                 <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
+                  </svg>
               </Link>
-            </div>
+                </div>
 
             {/* For Voice Creators Section */}
             <div className="rounded-2xl bg-gradient-to-br from-purple-900/40 to-black p-8 shadow-glow transition-all duration-300 hover:shadow-purple-900/30">
@@ -97,7 +97,7 @@ const Hero = () => {
                 href="/dashboard"
                 className="inline-flex items-center justify-center rounded-lg bg-purple-600 px-6 py-4 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-purple-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
               >
-                Join as Creator
+                Upload Your Voice
                 <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
