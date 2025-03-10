@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 // Sample voice data
 const voiceData = [
@@ -135,6 +136,7 @@ export default function Dashboard() {
   const [elevenLabsKey, setElevenLabsKey] = useState("");
   const [resembleAIKey, setResembleAIKey] = useState("rs_9a7b3c2d1e_f8g7h6i5j4k3l2m1");
   const [cartesiaKey, setCartesiaKey] = useState("");
+  const [radiusApiKey, setRadiusApiKey] = useState("radius_api_7x9f2e8d1c5b3a_prod");
   
   // Audio playback states
   const [isPlayingResembleSample, setIsPlayingResembleSample] = useState(false);
@@ -669,6 +671,55 @@ export default function Dashboard() {
                 </div>
               )}
             </div>
+          </div>
+        </div>
+        
+        {/* Connect to Billing Section */}
+        <div className="rounded-xl border border-gray-700 p-6 mt-6">
+          <h3 className="mb-4 text-lg font-medium text-white">Connect to Radius</h3>
+          
+          {/* Radius API Key */}
+          <div className="mb-4">
+            <p className="mb-2 text-sm text-gray-400">Radius API Key</p>
+            <div className="flex items-center">
+              <div className="flex-1">
+                <input
+                  type="text"
+                  value={radiusApiKey}
+                  onChange={(e) => setRadiusApiKey(e.target.value)}
+                  placeholder="Enter Radius API Key"
+                  className="w-full rounded-md border border-gray-700 bg-dark-3 px-4 py-2 text-sm text-white placeholder-gray-500 focus:border-blue-500 focus:outline-none"
+                  title="Enter your Radius API Key for billing integration"
+                />
+              </div>
+              <button 
+                className="ml-3 rounded-md bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700"
+              >
+                Connect
+              </button>
+            </div>
+            <p className="mt-2 text-xs text-gray-500">Connect your Radius account to manage keys, billing and payments</p>
+          </div>
+          
+          <div className="rounded-lg border border-gray-700 bg-dark-3 p-4">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm font-medium text-white">Billing Status</p>
+                <p className="text-xs text-gray-400">Free tier - 100 credits remaining</p>
+              </div>
+              <span className="rounded-full bg-green-900/30 px-3 py-1 text-xs font-medium text-green-400">
+                Active
+              </span>
+            </div>
+          </div>
+          
+          <div className="mt-4 text-center">
+            <Link href="/billing" className="inline-flex items-center text-blue-400 hover:text-blue-300 text-sm">
+              View detailed billing and usage
+              <svg xmlns="http://www.w3.org/2000/svg" className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
           </div>
         </div>
       </div>
